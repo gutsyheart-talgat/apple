@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #F4F4F4;
+    width: 1440px;
+    height: 1315px;
+}
+header{
+    height: 10%;
+    background: white;
+    display: flex;
+    border-radius: 6px;
+    margin: 60px 60px 20px 60px;
+
+
+}
+.logowatch{
+    width:30% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    background: #444444;
+    width: 70%;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius:0  6px 6px 0;
+}
+nav>a{
+    margin-right: 75px;
+    color: white;
+}
+.watch{
+    height: 30%;
+    background: white;
+    margin: 0 60px 20px 60px;
+    border-radius: 6px;
+    display: flex;
+    
+}
+.watch_h1{
+    margin: 50px 0 35px 60px;
+}
+.watch__info>p{
+    margin: 0 0 12px 60px;
+}
+.watch__info>a{
+    margin: 0 0 38px 72px;
+}
+.watch__info>button{
+    margin: 38px 0 50px 60px;
+    background: none;
+    border: none;
+}
+.watch>img{
+    margin-left: 427px;
+}
+.products{
+    height: 40%;
+    background: white;
+    margin: 20px 60px;
+    border-radius: 6px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header>a{
+    margin-top: 55px;
+    margin-right: 60px;
+}
+.header>h1{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.main{
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 201px 1fr 1fr 1fr 1fr 201px;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "... pods iphone tv card ...";
+}
+button{
+    border: none;
+    background: none;
+}
+.airpods{
+    grid-area: pods;
+}
+.iphone{
+    grid-area: iphone;
+}
+.tv{
+    grid-area: tv;
+}
+.card{
+    grid-area: card;
+}
+footer{
+    height: 20%;
+    background: white;
+    margin: 0 60px 117px 60px;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns:60px 20% 20% 60%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "... follow contact ...";
+}
+.footer_follow{
+    grid-area: follow;
+    
+
+}
+.footer_contact{
+    grid-area: contact;
+
+}
+
