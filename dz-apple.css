@@ -35,6 +35,7 @@ nav{
     border-radius:0  6px 6px 0;
 }
 nav>a{
+    text-decoration: none;
     margin-right: 75px;
     color: white;
 }
@@ -54,6 +55,7 @@ nav>a{
 }
 .watch__info>a{
     margin: 0 0 38px 72px;
+    text-decoration: none;
 }
 .watch__info>button{
     margin: 38px 0 50px 60px;
@@ -74,6 +76,7 @@ nav>a{
     justify-content: space-between;
 }
 .header>a{
+    text-decoration: none;
     margin-top: 55px;
     margin-right: 60px;
 }
